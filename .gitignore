@@ -1,0 +1,8 @@
+# Ignora todos os arquivos .class
+*.class
+
+# Ignora o diretório bin (comum em projetos Java)
+bin/
+
+# Ignora arquivos de logs gerados durante a execução
+*.log
