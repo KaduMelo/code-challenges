@@ -1,11 +1,3 @@
-# counts = {2: 4, 1: 3, 12: 1}
-
-# # Find the key with the maximum value in the dictionary
-# major_element = max(counts, key=counts.get)
-
-# print(major_element)  # Output: 2
-
-
 def majorityElement(nums):
     """
     :type nums: List[int]
@@ -20,5 +12,10 @@ def majorityElement(nums):
     major_element = max(counts, key=counts.get)
     return major_element
 
+# Test case 1
 nums = [3,2,3]
-print(majorityElement(nums))
+print(majorityElement(nums)) # Output 3
+
+# Test case 2
+nums = [2,2,1,1,1,2,2]
+print(majorityElement(nums)) # Output 2
